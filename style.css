@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    /* height: 100%; */
+    width: 100%;
+    background-color: #D5FF3F;
+}
+
+nav{
+    height: 80px;
+    /* background-color: aliceblue; */
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+nav a{
+    font-size: 28px;
+    color: #000;
+    text-decoration: none;
+}
+
+section{
+    /* background-color: aliceblue; */
+    padding: 60px 100px;
+}
+
+section .hero-text1{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: -100px;
+}
+
+.hero-text1 h1{
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 60px 100px;
+}
+
+.hero-text1 .video{
+    height: 120px;
+    width: 400px;
+    background-color: #000;
+    border-radius: 100px;
+    margin-top: 135px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.video .play{
+    height: 100%;
+    width: 35%;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i{
+    font-size: 50px;
+    color: #fff;
+}
+section .hero-text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -130px;
+}
+
+.hero-text2 h1{
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 300px;
+    padding: 60px 100px;
+}
+.hero-text2 p{
+    font-size: 25px;
+}
+button{
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 8px 18px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.image{
+    height: 800px;
+    width: 90%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: aquamarine;
+    margin-left: 5%;
+    background-image: url(./wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px
+}
+
+.image .arrow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(191, 174, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: -5%;
+    border: 4px solid white;
+    background-color: #111;
+}
+.arrow i{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
